@@ -27,7 +27,7 @@ https://faucet.sonic.game/#/
 ```
 sudo apt update && apt upgrade -y
 sudo apt remove nodejs
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 source ~/.bashrc
 nvm install 23.4.0
 nvm use 23.4.0
